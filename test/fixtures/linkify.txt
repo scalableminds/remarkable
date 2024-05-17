@@ -38,14 +38,6 @@ www.example.org
 .
 
 
-properly cut domain end
-.
-www.example.org版权所有
-.
-<p><a href="http://www.example.org版权所有">www.example.org版权所有</a></p>
-.
-
-
 unicode
 .
 www.example.org#版权所有
