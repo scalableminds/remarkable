@@ -1,4 +1,3 @@
-#!/usr/bin/env node -r esm
 /*eslint no-console:0*/
 
 // Fixtures generator from commonmark specs. Split spec to working / not working

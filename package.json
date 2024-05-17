@@ -63,8 +63,8 @@
   "scripts": {
     "build": "rm -rf dist && yarn rollup -c",
     "lint": "eslint .",
-    "test:browser": "yarn build && node -r esm ./test/test-browser.js && serve .",
-    "test:spec": "./support/specsplit.js test/fixtures/commonmark/spec.txt",
+    "test:browser": "yarn build && yarn node -r esm ./test/test-browser.js && serve .",
+    "test:spec": "yarn node -r esm ./support/specsplit.js ./test/fixtures/commonmark/spec.txt",
     "test:mocha": "mocha -r esm -R spec",
     "test:ci": "nyc mocha -r esm -R spec --bail",
     "test": "yarn test:mocha && yarn test:spec",

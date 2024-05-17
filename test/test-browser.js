@@ -9,8 +9,8 @@ const readFixtureDir = dir =>
 
 const content = `
 <script type="module">
-  import RemarkableWithMap from './dist/esm/index.js';
-  import RemarkableWithTextarea from './dist/esm/index.browser.js';
+  import { Remarkable as RemarkableWithMap } from './dist/esm/index.browser.js';
+  import { Remarkable as RemarkableWithTextarea } from './dist/esm/index.browser.js';
 
   const markdownWithMap = new RemarkableWithMap('commonmark');
   const markdownWithTextarea = new RemarkableWithMap('commonmark');
